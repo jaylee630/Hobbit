@@ -1,0 +1,19 @@
+host: 127.0.0.1
+port: 9091
+admin_port: 9092
+check_period: 100
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: 1234
+  database: golang_admin_basic
+  table_prefix: tbl_
+executor:
+  host: 127.0.0.1
+  port: 8001
+gateway:
+  host: 172.28.36.103
+  port: 8000
+logger:
+  level: debug
