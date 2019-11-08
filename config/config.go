@@ -7,7 +7,7 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"gopkg.in/yaml.v2"
 
-	"golang-admin-basic-master/utils/log"
+	"github.com/jaylee630/Hobbit/utils/log"
 )
 
 type (

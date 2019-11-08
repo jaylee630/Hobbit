@@ -11,9 +11,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 
-	"golang-admin-basic-master/api"
-	"golang-admin-basic-master/config"
-	"golang-admin-basic-master/utils/log"
+	"github.com/jaylee630/Hobbit/api"
+	"github.com/jaylee630/Hobbit/config"
+	"github.com/jaylee630/Hobbit/utils/log"
 )
 
 var (
