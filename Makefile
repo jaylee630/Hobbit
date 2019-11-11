@@ -7,13 +7,13 @@
 #   make docker-build
 
 BUILD_DIR ?= ./build
-APP_NAME ?= golang-admin-basic-master
+APP_NAME ?= github.com/jaylee630/Hobbit
 
 BUILD_DATE ?= $(shell date +%Y-%m-%d.%H:%M:%S)
 GO_VERSION ?= $(shell go version | cut -d ' ' -f 3)
 BUILD_VERSION ?= $(shell git rev-parse --short HEAD || echo "GitNotFound")
 
-BUILD_PKG_PATH_PREFIX ?= golang-admin-basic-master/ctlmain
+BUILD_PKG_PATH_PREFIX ?= github.com/jaylee630/Hobbit/ctlmain
 LD_FLAGS := "-X $(BUILD_PKG_PATH_PREFIX).buildDate=$(BUILD_DATE) \
 	-X $(BUILD_PKG_PATH_PREFIX).buildVersion=$(BUILD_VERSION) \
 	-X $(BUILD_PKG_PATH_PREFIX).buildGoVersion=$(GO_VERSION)"
@@ -42,4 +42,4 @@ format:
 
 clean:
 	rm -rf $(BUILD_DIR)
-	rm -f ./golang-admin-basic-master
+	rm -f ./github.com/jaylee630/Hobbit

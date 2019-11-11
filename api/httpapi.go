@@ -11,7 +11,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 
-	"golang-admin-basic-master/utils/log"
+	"github.com/jaylee630/Hobbit/utils/log"
 )
 
 type (

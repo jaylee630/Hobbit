@@ -7,7 +7,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	gormzap "github.com/wantedly/gorm-zap"
 
-	"golang-admin-basic-master/utils/log"
+	"github.com/jaylee630/Hobbit/utils/log"
 )
 
 var (

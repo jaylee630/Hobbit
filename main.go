@@ -8,7 +8,7 @@
 
 package main
 
-import "golang-admin-basic-master/ctlmain"
+import "github.com/jaylee630/Hobbit/ctlmain"
 
 func main() {
 	ctlmain.Main()
